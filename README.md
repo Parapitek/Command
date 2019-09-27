@@ -196,3 +196,4 @@ RemoteControl *remoteControl = new RemoteControl();
     remoteControl->onButtonWasPushed(2);
     remoteControl->offButtonWasPushed(2);
     ```
+
