@@ -141,7 +141,7 @@ public:
 ```
 > Эта команда выключает свет(off).
 
-### *Команда включения стерео устройства
+### *Команда включения стерео устройства*
 ```
 class StereOnWithCDCommand : public Command
 {
@@ -195,5 +195,5 @@ RemoteControl *remoteControl = new RemoteControl();
 
     remoteControl->onButtonWasPushed(2);
     remoteControl->offButtonWasPushed(2);
-    ```
+
 
