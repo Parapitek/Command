@@ -6,9 +6,9 @@ Light::Light(QString place)
 }
 
 void Light::on() {
-    cout << "Vklyuchenie sveta" << endl;
+    cout << "Light is on" << endl;
 }
 
 void Light::off() {
-    cout << "Vyklyuchenie sveta" << endl;
+    cout << "Light is off" << endl;
 }

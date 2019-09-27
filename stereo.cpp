@@ -6,25 +6,25 @@ Stereo::Stereo(QString place)
 }
 
 void Stereo::on() {
-    cout << "Vklyuchit stereo" << endl;
+    cout << "Stereo is on" << endl;
 }
 
 void Stereo::off() {
-    cout << "Vyklyuchit stereo" << endl;
+    cout << "Stereo is off" << endl;
 }
 
 void Stereo::setCd() {
-    cout << "Vstavit CD" << endl;
+    cout << "Stereo is set for CD input" << endl;
 }
 
 void Stereo::setDvd() {
-    cout << "Vstavit DVD" << endl;
+    cout << "Stereo is set for DVD input" << endl;
 }
 
 void Stereo::setRadio() {
-    cout << "Pereklyuchit radio" << endl;
+    cout << "Stereo is set for Radio" << endl;
 }
 
 void Stereo::setVolume(int v) {
-    cout << "Izmenit gromost'" << endl;
+    cout << "Stereo volume set to" << endl;
 }
