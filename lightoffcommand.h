@@ -1,6 +1,5 @@
 #ifndef LIGHTOFFCOMMAND_H
 #define LIGHTOFFCOMMAND_H
-
 #include "command.h"
 #include "light.h"
 
@@ -11,6 +10,7 @@ private:
 public:
     LightOffCommand(Light *light);
     void execute();
+
 };
 
 #endif // LIGHTOFFCOMMAND_H
